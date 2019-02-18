@@ -1,0 +1,49 @@
+// Primary Colours
+$tc-warm-grey: #4E4A41;
+$tc-sun:#F9AC00;
+$runway-smoke:#dcdbd9;
+$runway-mist:#edece9;
+$tc-pink-drago:#da3666;
+$tc-melagrana:#b12b29;
+$tc-curacao:#00799b;
+$runway-light-blue:#cce4eb;
+$off-white:#edece9;
+$white:#ffffff;
+
+$white-40:rgba(255,255,255,0.6);
+
+$input--valid:#999;
+
+//Shades of black
+$black-color:rgba(0,0,0,1);
+$tc-black-5: lighten($black-color, 95%);
+$tc-black-10: lighten($black-color, 90%);
+$tc-black-20: lighten($black-color, 80%);
+$tc-black-40: lighten($black-color, 60%);
+
+// Gradient Colours
+$tc-sun-gradient-from:#ef8000;
+$tc-sun-gradient-to:#fab702;
+$tc-sun-gradient-angle:308deg;
+
+//Severity Colours
+$mortal: #ef0533;
+$critical: #ef9d00;
+$major: #efce00;
+$high: #fae900;
+$medium: #bbef00;
+$low: #64ebdf;
+
+//breakpoints
+
+//desktop lg
+$desktop-width:75em;
+//laptop md
+$laptop-width:62em;
+//tablet sm
+$tablet-width:48em;
+// phablet xs
+$phablet-width:36.25em;
+// mobile xs
+$mobileonly-width:36.25em;
+$mobile-width:0em;

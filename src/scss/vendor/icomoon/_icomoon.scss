@@ -1,0 +1,104 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ttt-standard-wait {
+  &:before {
+    content: $icon-ttt-standard-wait; 
+  }
+}
+.icon-ttt-standard-wait-bg {
+  &:before {
+    content: $icon-ttt-standard-wait-bg; 
+  }
+}
+.icon-ttt-standard-burger {
+  &:before {
+    content: $icon-ttt-standard-burger; 
+  }
+}
+.icon-ttt-standard-chervon-down {
+  &:before {
+    content: $icon-ttt-standard-chervon-down; 
+  }
+}
+.icon-ttt-standard-chervon-left {
+  &:before {
+    content: $icon-ttt-standard-chervon-left; 
+  }
+}
+.icon-ttt-standard-chervon-right {
+  &:before {
+    content: $icon-ttt-standard-chervon-right; 
+  }
+}
+.icon-ttt-standard-chervon-up {
+  &:before {
+    content: $icon-ttt-standard-chervon-up; 
+  }
+}
+.icon-ttt-standard-close {
+  &:before {
+    content: $icon-ttt-standard-close; 
+  }
+}
+.icon-ttt-standard-dot {
+  &:before {
+    content: $icon-ttt-standard-dot; 
+  }
+}
+.icon-ttt-type-bug {
+  &:before {
+    content: $icon-ttt-type-bug; 
+  }
+}
+.icon-ttt-type-default {
+  &:before {
+    content: $icon-ttt-type-default; 
+  }
+}
+.icon-ttt-type-error {
+  &:before {
+    content: $icon-ttt-type-error; 
+  }
+}
+.icon-ttt-type-improvement {
+  &:before {
+    content: $icon-ttt-type-improvement; 
+  }
+}
+.icon-ttt-type-new-feature {
+  &:before {
+    content: $icon-ttt-type-new-feature; 
+  }
+}
+.icon-ttt-type-task {
+  &:before {
+    content: $icon-ttt-type-task; 
+  }
+}
+

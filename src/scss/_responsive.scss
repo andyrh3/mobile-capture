@@ -1,0 +1,101 @@
+/*desktop / laptop / tablet / phablet / mobile / mobileonly*/
+
+.right{
+  justify-content: right;
+  text-align: right;
+}
+.right-xxs{
+  @include breakpoint(mobile) {
+    justify-content: right;
+    text-align: right;
+  }
+}
+.right-xs{
+  @include breakpoint(phablet) {
+    justify-content: right;
+    text-align: right;
+  }
+}
+.right-sm{
+  @include breakpoint(tablet) {
+    justify-content: right;
+    text-align: right;
+  }
+}
+.right-md {
+  @include breakpoint(laptop) {
+    justify-content: right;
+    text-align: right;
+  }
+}
+.right-lg{
+  @include breakpoint(desktop) {
+    justify-content: right;
+    text-align: right;
+  }
+}
+
+.left{
+  justify-content: left;
+  text-align: left;
+}
+.left-xxs{
+  @include breakpoint(mobile) {
+    justify-content: left;
+    text-align: left;
+  }
+}
+.left-xs{
+  @include breakpoint(phablet) {
+    justify-content: left;
+    text-align: left;
+  }
+}
+.left-sm{
+  @include breakpoint(tablet) {
+    justify-content: left;
+    text-align: left;
+  }
+}
+.left-md {
+  @include breakpoint(laptop) {
+    justify-content: left;
+    text-align: left;
+  }
+}
+.left-lg{
+  @include breakpoint(desktop) {
+    justify-content: left;
+    text-align: left;
+  }
+}
+
+.hidden{
+  display: none;
+
+  &.show-xxs{
+    @include breakpoint(mobile) {
+      display: inherit;
+    }
+  }
+  &.show-xs{
+    @include breakpoint(phablet) {
+      display: inherit;
+    }
+  }
+  &.show-sm{
+    @include breakpoint(tablet) {
+      display: inherit;
+    }
+  }
+  &.show-md {
+    @include breakpoint(laptop) {
+      display: inherit;
+    }
+  }
+  &.show-lg{
+    @include breakpoint(desktop) {
+      display: inherit;
+    }
+  }
+}
