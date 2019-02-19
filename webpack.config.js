@@ -67,6 +67,7 @@ module.exports = {
         port: 9001
     },
     optimization: {
+        minimize: true,
         minimizer: [
             new UglifyJsPlugin({
                 cache: true,
